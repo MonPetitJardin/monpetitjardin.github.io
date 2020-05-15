@@ -1,0 +1,13 @@
+I"7<h2 id="youre-ready-to-go">You’re ready to go!</h2>
+
+<p>Start developing your Jekyll website.</p>
+
+<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+      <defs>
+          <clipPath id="-clip-path">
+              <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+          </clipPath>
+      </defs>
+      <image clip-path="url(#Aloe Vera-clip-path)" width="1920" height="1200" xlink:href="/images/aloe-vera.jpg"></image>
+  </svg>
+:ET

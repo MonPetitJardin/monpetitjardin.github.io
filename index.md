@@ -3,11 +3,21 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
-
-Start developing your Jekyll website.
+<header class="header">
+  <h1>MON PETIT JARDIN</h1>
+</header>
 
 {% for plant in site.plants  %}
-  <h2>{{ plant.name }} - {{ plant.description }}</h2>
-  <p>{{ plant.content | markdownify }}</p>
+  <div class="wrapper-card">
+    <div class="card">
+      <a href="{{ plant.url }}">
+        <img class="card-picture" src="{{plant.picture}}">
+      </a>
+    </div>
+    <div class='card-name'>
+      <p class="plant-name">
+        {{plant.name}}
+      </p>
+    </div>
+  </div>
 {% endfor %}

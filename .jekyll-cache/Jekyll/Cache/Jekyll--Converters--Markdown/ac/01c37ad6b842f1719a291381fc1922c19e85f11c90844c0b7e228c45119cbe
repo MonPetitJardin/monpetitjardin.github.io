@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Happy Jekylling! - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <center>
-        <header class="header">
-  <h1>MON PETIT JARDIN</h1>
-</header>
-
+I"4
 <div class="wrapper-card">
     <div class="card">
       <a href="/plants/aloe-vera">
@@ -38,8 +24,4 @@
       </p>
     </div>
   </div>
-
-      </center>
-    </div>
-  </body>
-</html>
+:ET
