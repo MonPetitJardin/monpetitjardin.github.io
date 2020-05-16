@@ -1,20 +1,22 @@
 ---
 layout: default
 ---
-<div class="card__content">
-  <a href="#" aria-label="Close Account Info Modal Box">X</a>
+<center>
+  <div class="card__content">
+    <a href="#" aria-label="Close Account Info Modal Box">X</a>
 
-  <center>
-    <div class="card-picture-section"> 
-      <img src="{{page.picture}}">
-    </div>
+    <center>
+      <div class="card-picture-section"> 
+        <img src="{{page.picture}}">
+      </div>
 
-    <div class="card__caption">
-      <h2 class="card__title">{{ page.name }}</h2>
+      <div class="card__caption">
+        <h2 class="card__title">{{ page.name }}</h2>
+      </div>
+    </center>
+    <div class="card__copy">
+        {{ page.content }}
     </div>
-  </center>
-  <div class="card__copy">
-      {{ page.content }}
   </div>
-</div>
+</center>
 
