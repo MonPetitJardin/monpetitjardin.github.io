@@ -7,17 +7,19 @@ title: "Happy Jekylling!"
   <h1>MON PETIT JARDIN</h1>
 </header>
 
-{% for plant in site.plants  %}
-  <div class="wrapper-card">
-    <div class="card">
-      <a href="{{ plant.url }}">
-        <img class="card-picture" src="{{plant.picture}}">
-      </a>
+<center>
+  {% for plant in site.plants  %}
+    <div class="wrapper-card">
+      <div class="card">
+        <a href="{{ plant.url }}">
+          <img class="card-picture" src="{{plant.picture}}">
+        </a>
+      </div>
+      <div class='card-name'>
+        <p class="plant-name">
+          {{plant.name}}
+        </p>
+      </div>
     </div>
-    <div class='card-name'>
-      <p class="plant-name">
-        {{plant.name}}
-      </p>
-    </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</center>
