@@ -1,4 +1,4 @@
-I"r<header class="header">
+I"†<header class="header">
   <h1>MON PETIT JARDIN</h1>
 </header>
 
@@ -11,6 +11,19 @@
     <div class="card-name">
       <p class="plant-name">
         Aloe Vera
+      </p>
+    </div>
+  </div>
+
+<div class="wrapper-card">
+    <div class="card">
+      <a href="/plants/dracaena">
+        <img class="card-picture" src="/images/dracaena.jpg" />
+      </a>
+    </div>
+    <div class="card-name">
+      <p class="plant-name">
+        Dracaena
       </p>
     </div>
   </div>

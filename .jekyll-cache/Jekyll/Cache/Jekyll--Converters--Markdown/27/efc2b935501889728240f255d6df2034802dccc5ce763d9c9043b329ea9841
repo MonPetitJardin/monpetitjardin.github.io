@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Aloe Vera - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <center>
-        <div class="card__content">
-  <div class="card__caption">
-      <h2 class="card__title">Aloe Vera</h2>
-  </div>
-  <div class="card__copy">
-      <h3 id="drenaje">Drenaje</h3>
+I"=<h3 id="drenaje">Drenaje</h3>
 
 <p>Es sumamente sensible al exceso de agua y sus raices no toleran el encharcamiento, por lo que necesita de un buen drenaje para sobrevivir.</p>
 
@@ -49,12 +33,4 @@
 <p>El nacimiento de nuevas plantas se producen en la base de la planta madre.</p>
 
 <p>Por lo tanto, si queremos reproducir nuevas plantas de Aloe Veras tendremos que esperar a que estos tengan una altura de aproximadamente 20 centímetros. Después podremos cortarlos y transplantarlos a otra maceta.</p>
-
-  </div>
-</div>
-
-
-      </center>
-    </div>
-  </body>
-</html>
+:ET
