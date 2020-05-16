@@ -16,6 +16,7 @@ h1 {
 }
 
 .card__content {
+  text-align: justify;
 	position: relative;
 	width: 100%;
 	max-width: 800px;
@@ -74,7 +75,7 @@ h1 {
 .card-picture-section img {
   width: 100%;
   height: auto;
-  margin: -75px 0 0 0;
+  margin: -10% 0 0 0;
 }
 
 .plant-name {
