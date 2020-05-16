@@ -99,11 +99,40 @@ h1 {
       height: 9em;
   }
 
-  .plant-name {
-    font-size: large;
+  .wrapper {
+    margin: 1%;
+  }
+
+  .card__title {
+    font-size: 0.8em;
+    line-height: 1;
+    margin: 1% 0 0 0;
+    color: #3b393d;
+  }  
+
+  .card__caption {
+    font-size: 2em;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 6%;
   }
 
   .card__copy {
     font-size: 0.7em;
+    max-width: 110%;
+    margin: 0 auto;
+    padding: 1%;
+    color: #3b393d;
+  }
+
+  .card__content {
+    text-align: justify;
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    margin: 5%;
+    padding: 4%;
+    background: #fff;
   }
 }
