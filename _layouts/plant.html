@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="card__content">
-  <div class="card__caption">
+  <center>
+    <div class="card-picture-section"> 
+      <img src="{{page.picture}}">
+    </div>
+
+    <div class="card__caption">
       <h2 class="card__title">{{ page.name }}</h2>
-  </div>
+    </div>
+  </center>
   <div class="card__copy">
       {{ page.content }}
   </div>

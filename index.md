@@ -2,12 +2,11 @@
 layout: default
 title: "Happy Jekylling!"
 ---
-
-<header class="header">
-  <h1>MON PETIT JARDIN</h1>
-</header>
-
 <center>
+  <header class="header">
+    <h1>MON PETIT JARDIN</h1>
+  </header>
+
   {% for plant in site.plants  %}
     <div class="wrapper-card">
       <div class="card">
